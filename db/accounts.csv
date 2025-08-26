@@ -1,0 +1,5 @@
+Username,Password,Access,Name
+test,admin,"admin,nurse,doctor,emergency,pharma,reception",ADMIN
+admin,admin,"pharma,emergency,nurse",MONKEY MAN
+monkey,admin,"admin,emergency",monkey man's cousin
+faeq,admin,"admin,reception,pharma",Faeq

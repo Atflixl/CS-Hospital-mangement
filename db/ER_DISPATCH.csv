@@ -1,0 +1,6 @@
+"Bed No", "Type", "status"Bed No," ""Type"""," ""status"""
+1,ICU,FREE
+2,ICU,OCCUPIED
+3,ICU,FREE
+4,ICU,FREE
+1,ICU,OCCUPIED

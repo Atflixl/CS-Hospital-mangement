@@ -1,3 +1,3 @@
-# CS-Hospital-mangement
-management system without GUI (shell only)
-This is a project created by me and my friend for an exam.
+# CS-CBSE
+
+2024-2025 CS.C CBSE Board Project: Hospital Management System

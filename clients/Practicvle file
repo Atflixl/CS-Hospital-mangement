@@ -1,0 +1,67 @@
+Hospital management system
+
+Major phases of this project included
+Field work: understanding the real world requirements of an HMS by speaking to doctors and hospital management at several locations in Jeddah. Including:
+Abeer Medical group
+https://abeermedicalgroup.com/abeer-hospitals/
+A Government vaccination center.
+https://maps.app.goo.gl/RduQ7qx7H6Ri4i3o6
+And visits to other small clinics and health practitioners.
+Coding:
+
+
+
+Coverpaged
+Certificate
+Objectives
+Requirements soft and hard
+Preface
+dB schema
+Code
+SS of running  code
+Not working:
+Update appointing details in recep
+Cancel appointing in reception
+Nurse
+Doctor
+Emergency code
+
+
+
+
+
+
+Objectives
+A major issue for any small business that wishes to expand and grow in the current digital age is a predominant problem.
+This software aims to ease the transition to a digitally managed system.
+
+The main goal of this project is to develop a simple code:
+1.	Tally medicinal records
+2.	Improve Knowledge on medical conditions (Archives)
+3.	Assign appropriate appointments (via reception)
+4.	Dispatch and maintain medicines (Pharmacy)
+5.	Update ER Room and maintain a record for available beds.
+6.	Maintain and modify Staff records.
+7.	Interconnectivity between modules so that Doctors and Nurses can keep track of appointments.
+8.	Optimized low cost solutions for small hospitals.
+
+
+
+
+
+
+Software Requirements
+
+1.	MY SQL version 5.6
+2.	Python version (min 3.9)
+3.	My SQL connector- Python sequences
+4.	Imported functions: Tabulate, BLACK formatter.
+5.	Use of databases in CSV and SQL.
+
+Hardware Requirements
+1.	Laptop
+2.	Git connectivity
+
+
+
+

@@ -1,0 +1,41 @@
+PATIENT DB
+patient ID
+patient name
+govt id
+DOB
+insurance lvl
+known allergies
+upcoming appointment_doctor
+upcoming appointment_date
+upcoming appointment_dept
+recent appointment_doctor
+recent appointment_date
+recent appointment_dept
+
+medical history DB
+ID
+patient ID
+medicine
+diagnosis
+date
+doctor
+vital_signs
+
+appointment DB
+ID
+patient name
+date of appt
+doctor
+doctor_dept
+vital_signs
+status (done/scheduled/cancelled)
+
+doctorDB:
+id
+name
+dept
+specialty (surgeon, consultant)
+
+deptDB:
+id
+name

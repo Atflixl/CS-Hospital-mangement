@@ -1,0 +1,60 @@
+create table doctors(
+  id int(3) primary key,
+  name varchar(30) not null,
+  dept int(3) not null,
+  specialty char(15) default 'Consultant');
+
+create table dept(
+  id int(3) primary key,
+  name varchar(3) not null);
+
+create table nurses(
+  id int(3) primary key,
+  name varchar(30) not null,
+  assigned_to int,
+  dept int,
+  username varchar(20) not null);
+
+
+create table patients(
+ ptID int(5) primary key,
+ ptName varchar(30) not null,
+ govtid int(10) not null unique, 
+ dob date,
+ insurance varchar(10) default 'N/A - CASH',
+ allergies varchar(100),
+ upc_appt_date date,
+ upc_appt_doctor int(3),
+ upc_appt_dept int(3),
+ rec_appt_date date,
+ rec_appt_doctor int(3),
+ rec_appt_dept int(3));
+ 
+create table ptmedhis(
+   id int(5) primary key,
+   ptid int(5) not null,
+   medicine varchar(100),
+   diagnosis varchar(100) not null,
+   appt_date date not null,
+   doctor int(3),
+   vital_signs varchar(100) not null);
+
+create table apptDB(
+  id int(10) primary key,
+  ptid int(5) not null,
+  appt_date date not null,
+  doctor int(3) not null,
+  doctor_dept int(3) not null,
+  vital_signs varchar(100),
+  appt_status char(10) default 'scheduled',
+  diagnosis varchar(200),
+  meds varchar(200));
+
+create table users(
+  username varchar(20) primary key,
+  pwd varchar(20) not null,
+  access varchar(100),
+  name varchar(30),
+  linked int
+)
+
