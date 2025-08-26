@@ -1,3 +1,2 @@
-# CS-CBSE
-
-2024-2025 CS.C CBSE Board Project: Hospital Management System
+Hospital Management System
+This was a project made by me and my friend for an exam/test
